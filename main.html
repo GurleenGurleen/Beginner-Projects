@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
     
     <title>Art World</title>
 </head>
@@ -17,7 +18,7 @@
         <ul class="nav-bar">
             <li class="icon"><img id="icon" src="./css/content/painting.png" height="50px" width="50px"><span>ART WORLD</span></li>
             <li id="about"><a href="#">ABOUT</a></li>
-            <li id="shop"><a href="#">SHOP</a></li>
+            <li id="shop"><a href="#" onclick="loadContent()">SHOP</a></li>
             <li id="search">
                 <form>
                     <input type="search" name="search" id="search-box" />
@@ -29,17 +30,17 @@
     </nav>
 
     <article class="article">
-          <div class="container container-1"></div>
-          <div class="container container-2"></div>
-          <div class="container container-3"></div>
+          <div class="container container-1" id="img_1">   </div>
+          <div class="container container-2" id="img_2">  </div>
+          <div class="container container-3" id="img_3">  </div>
     </article>
 
     <footer class="foot">
         <div>
-            <a href="#"><i class="fa fa-envelope" style="font-size:50px"></i></i></a>
+            <a href="#"><i class="fa fa-envelope" style="font-size:50px; color:blueviolet" ></i></i></a>
         </div>
         <div id="footer-content">
-            I hope this website made your browsing experience. 
+            I hope this website made your browsing experience Better. 
         </div>
         <div class="rating">
             <a href="#" onclick="rating()"><img class="rate-1" src="./css/content/boss.png" alt="okay" height="50px" width="50px" /></a>
@@ -47,6 +48,7 @@
             <a href="#" onclick="rating()"><img class="rate-1" src="./css/content/smile (1).png" alt="okay" height="50px" width="50px"/></a>
             <a href="#" onclick="rating()"><img class="rate-1" src="./css/content/smile (2).png" alt="okay" height="50px" width="50px"/></a>
             <a href="#" onclick="rating()"><img class="rate-1" src="./css/content/face.png" alt="okay" height="50px" width="50px"/> </a>  
+            
         </div>
         <div> &copy;Gurleen Gurleen </div>
     </footer>
