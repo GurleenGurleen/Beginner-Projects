@@ -26,7 +26,7 @@ function loadContent(){
          console.log(rndInt3)
     }
     else if(rndInt==1){
-        var rndInt2= rndInt+1;
+        var rndInt2= rndInt-1;
         var rndInt3= rndInt+2;
         console.log(rndInt2)
          console.log(rndInt3)

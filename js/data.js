@@ -46,5 +46,13 @@ var Gallary=[
         description: "<span>Bella</span> is a bright young pup who loves being around other dogs and doesn't mind the odd cat.<br />Her <span>favourite treat</span> is <span>bacon</span> - anything <span>bacon</span>.",
         type: "dog"
     },
+
+    {
+        image: { src: "./css/content/hand.jpeg", alt: "Bella", width: 320, height: 360 },
+        name: "Bella",
+        age: 0.5,
+        description: "<span>Bella</span> is a bright young pup who loves being around other dogs and doesn't mind the odd cat.<br />Her <span>favourite treat</span> is <span>bacon</span> - anything <span>bacon</span>.",
+        type: "dog"
+    },
 ]
 

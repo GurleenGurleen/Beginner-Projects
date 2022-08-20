@@ -79,11 +79,12 @@ nav a:link{
     padding: 2rem;
     background: rgb(230,126,135);
     background: radial-gradient(circle, rgba(230,126,135,0.6699054621848739) 26%, rgba(255,255,255,1) 100%);
-    display: flex;
-    flex-flow:row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     height: 40rem;
     align-items: center;
+    
     
 }
 
@@ -91,11 +92,12 @@ nav a:link{
     border: 0.5px solid black;
     border-radius: 2rem;
     height: 30rem;
-    width:40rem;
+    text-align: center;
     background-color: #ea5a7e;
     box-shadow: 10px 10px 8px #5b5b5b;
     transition-duration: 600ms;
     transition-timing-function: ease;
+    padding-top: 1rem;
       
 }
 
